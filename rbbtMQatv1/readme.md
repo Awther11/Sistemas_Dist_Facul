@@ -18,16 +18,20 @@ Ferramentas Utilizadas:
 
 
 Instalar dependências:
+
     pip install pika
 
 Certificar-se de que o servidor RabbitMQ está em execução.
 Executar o arquivo send.py para enviar mensagens:
+
     python send.py
 
 Executar o arquivo received.py para receber e exibir mensagens no terminal:
+
     python received.py
 
-Arquivos Criados
+Arquivos Criados:
+
     send.py: Responsável por enviar dados/mensagens, neste caso um "Hello World".
     received.py: Responsável por receber as informações enviadas em tempo de execução, exibindo no terminal a mensagem pela quantidade de vezes em que for enviada.
     Resultado Esperado
